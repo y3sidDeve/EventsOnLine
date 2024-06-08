@@ -166,7 +166,7 @@ h1 {
 }
 
 .form {
-  padding: 2rem;
+  padding: 5rem;
 }
 
 .form label {
@@ -195,6 +195,12 @@ h1 {
 }
 
 .form a {
+  color: #082cf8;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.logo a {
   color: #082cf8;
   text-decoration: none;
   font-weight: 500;
