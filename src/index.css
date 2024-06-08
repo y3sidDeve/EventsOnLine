@@ -1,0 +1,99 @@
+/* PALETAS DE COLORES DEFINIDAS */
+/* #4a6eb0 */
+/* Paleta de colores */
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+
+:root {
+  --bondi-blue: #0799b6;
+  --san-marino: #152e5e;
+  --eden: #114c5f;
+  --sinbad: #9cd2d3;
+  --janna: #f2e6cf;
+  --soft-blue: #e1e9ff;
+  --white: #e7e7e7;
+  --violete: #a01494;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(211, 211, 0);
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.container-fluid {
+  background-color: var(--soft-blue);
+  height: 94vh;
+}
+
+.navbar-custom {
+  background-color: var(--san-marino);
+  font-family: 'Concert One', cursive;
+}
+
+.header {
+  background-color: var(--san-marino);
+  color: var(--white);
+  padding: 2rem 0;
+  border-radius: 0 0 2rem 2rem;
+}
+
+.header h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  padding: 0rem 2rem;
+}
+
+.header p {
+  font-size: 1.2em;
+  line-height: 1.1;
+  padding: 2rem;
+}
+
+.header img {
+  width: 60%;
+  height: auto;
+  display: fixed;
+}
+
+
+.btn-group {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.button {
+  color: var(--white);
+  padding: 0.5rem 0.7rem;
+  border: none;
+  border-radius: 0.6rem;
+  font-size: 1em;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.button-primary {
+  background-color: var(--violete);
+}
+
+.button-outline {
+  background-color: transparent;
+  border: 2px solid var(--violete);
+  color: var(--violete);
+}
+
+.button-primary:hover {
+  background-color: #5c0f7a;
+}
+
+.button-outline:hover {
+  background-color: var(--violete);
+  color: var(--white);
+}
