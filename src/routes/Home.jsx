@@ -4,11 +4,13 @@ import festSvg from "../assets/festsvg2.svg";
 import imgTec1 from "../images/tecmg.webp";
 import imgHip from "../images/tecmg2.webp";
 
+import { Link } from "react-router-dom";
+
 function Home() {
   return (
     <>
       <Navbar />
-      <div className="container-fluid">
+      <div className="container-fluid contenedor">
         <div className="row header">
           <div className="col-lg-6">
             <h1>Proximos eventos destacados</h1>
@@ -16,9 +18,12 @@ function Home() {
               Encuentra los mejores eventos en un solo lugar, no te los pierdas
             </p>
             <div className="btn-group gap-3 ">
-              <button className="button button-primary">Ver eventos</button>
-
-              <button className="button button-outline">Regístrate</button>
+              <Link to="events/">
+                <button className="button button-primary">Ver eventos</button>
+              </Link>
+              <Link to="register/">
+                <button className="button button-outline">Registrarse</button>
+              </Link>
             </div>
           </div>
           <div className="col-lg-6 text-center mt-4">
