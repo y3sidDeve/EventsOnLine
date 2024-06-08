@@ -2,8 +2,7 @@
 /* #4a6eb0 */
 /* Paleta de colores */
 
-@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&family=Fjalla+One&display=swap");
 
 :root {
   --bondi-blue: #0799b6;
@@ -18,7 +17,6 @@
 
 body {
   margin: 0;
-  background-color: rgb(211, 211, 0);
 }
 
 h1 {
@@ -28,12 +26,11 @@ h1 {
 
 .container-fluid {
   background-color: var(--soft-blue);
-  height: 94vh;
 }
 
 .navbar-custom {
   background-color: var(--san-marino);
-  font-family: 'Concert One', cursive;
+  font-family: "Concert One", cursive;
 }
 
 .header {
@@ -60,7 +57,6 @@ h1 {
   height: auto;
   display: fixed;
 }
-
 
 .btn-group {
   display: flex;
@@ -89,11 +85,65 @@ h1 {
   color: var(--violete);
 }
 
+.button-link {
+  background-color: transparent;
+  border: none;
+  color: var(--violete);
+}
+
+
 .button-primary:hover {
-  background-color: #5c0f7a;
+  background-color: #00c94d;
 }
 
 .button-outline:hover {
   background-color: var(--violete);
   color: var(--white);
+}
+
+.button-link:hover {
+  color: #5c0f7a;
+}
+
+.text-event p {
+  font-size: 1em;
+  line-height: 1.1;
+}
+
+.text-event h2 {
+  margin-top: 2rem;
+  font-size: 3em;
+  line-height: 1.1;
+  text-align: center;
+  font-family: "Concert One", sans-serif;
+}
+
+.subtitle {
+  font-size: 1.5em;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.event-description {
+  padding: 4rem;
+
+}
+
+.event-description p {
+  font-size: 1em;
+  line-height: 1.1;
+  color: #8b8b8b;
+}
+
+.event-content {
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 2rem;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  
+
+}
+.event-content img {
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
 }
