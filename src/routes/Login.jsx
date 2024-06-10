@@ -61,9 +61,11 @@ const LoginPage = ({ onLogin }) => {
                 </p>
               </div>
 
-              <button type="submit" className="col-lg-12 mb-4 btn">
+              <div className="form-group row">
+                <button type="submit col-sm-12">
                 Registrarme{" "}
               </button>
+              </div>
 
               <div className="form-group text-center">
                 <p>
