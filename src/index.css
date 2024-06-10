@@ -87,7 +87,7 @@ h1 {
 .button-outline {
   background-color: transparent;
   outline: var(--violete) solid 2px;
-  color: var(--violete)
+  color: var(--violete);
 }
 
 .button-link {
@@ -167,14 +167,29 @@ h1 {
 
 @media (max-width: 768px) {
   .form {
-    padding: 1rem;
+    padding: 0.2rem;
   }
 }
 
-@media (min-width: 769px) {
+/* TAMAÑOS PARA PANTALLAS */
+@media (min-width: 769px) and (max-width: 1024px) {
   .form {
-    padding: 6rem;
+    padding: 7rem;
   }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .form {
+    padding: 5rem;
+  }
+}
+
+@media (min-width: 1441px) {
+  .form {
+    padding: 0rem 15rem;
+  }
+
+  
 }
 
 .form label {
@@ -212,7 +227,6 @@ h1 {
   color: #082cf8;
   text-decoration: none;
   font-weight: 500;
-
 }
 
 .contentCol {
@@ -237,4 +251,3 @@ h1 {
   color: var(--white);
   text-align: center;
 }
-

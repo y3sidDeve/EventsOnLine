@@ -31,7 +31,7 @@ const LoginPage = ({ onLogin }) => {
             </div>
             {/* Formulario de registro */}
             <form onSubmit={handleSubmit} className="form">
-              <div className="form-group mb-3">
+              <div className="form-group  mb-3">
                 <label htmlFor="email">Correo</label>
                 <input
                   value={email}
@@ -61,11 +61,9 @@ const LoginPage = ({ onLogin }) => {
                 </p>
               </div>
 
-              <div className="form-group row">
-                <button type="submit col-sm-12">
-                Registrarme{" "}
+              <button type="submit" className="col-12 mb-4 btn">
+                Iniciar Sesion{" "}
               </button>
-              </div>
 
               <div className="form-group text-center">
                 <p>

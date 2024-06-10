@@ -84,7 +84,7 @@ const Register = ({ onRegister }) => {
                 />
               </div>
 
-              <button type="submit" className="col-lg-12 mb-4 btn">
+              <button type="submit" className="col-12 mb-4 btn">
                 Registrarme{" "}
               </button>
 
