@@ -14,6 +14,7 @@ import Register from "./routes/Register";
 import LoginPage from "./routes/Login";
 import Events from "./routes/Events";
 import ProtectedRoute from "./components/ProtectedRoute";
+import Error from "./routes/Error";
 
 const App = () => {
   const [user, setUser] = useState(null);
@@ -43,7 +44,7 @@ const App = () => {
     {
       path: "/",
       element: <Home />,
-      errorElement: <div>Not found</div>,
+      errorElement: <Error />,
     },
     {
       path: "/register",
@@ -60,6 +61,7 @@ const App = () => {
           <Events />
         </ProtectedRoute>
       ),
+      errorElement: <Error />,
     },
   ]);
 

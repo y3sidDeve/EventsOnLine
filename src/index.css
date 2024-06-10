@@ -63,6 +63,7 @@ h1 {
   display: fixed;
 }
 
+
 .btn-group {
   display: flex;
   width: 100%;
@@ -187,6 +188,12 @@ h1 {
 @media (min-width: 1441px) {
   .form {
     padding: 0rem 15rem;
+  }
+  
+  .info-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   

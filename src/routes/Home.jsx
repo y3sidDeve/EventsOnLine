@@ -12,7 +12,7 @@ function Home() {
       <Navbar />
       <div className="container-fluid contenedor">
         <div className="row header">
-          <div className="col-lg-6">
+          <div className="col-lg-6 info-content">
             <h1>Proximos eventos destacados</h1>
             <p>
               Encuentra los mejores eventos en un solo lugar, no te los pierdas
